@@ -1,0 +1,48 @@
+
+.header {
+  display: flex;
+  color: white;
+  gap: 20px;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+}
+.header img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 32px;
+  align-self: center;
+}
+.content {
+  align-self: flex-start;
+  font-size: 24px;
+}
+.table {
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.image {
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.rotate {
+  animation: spin 1s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

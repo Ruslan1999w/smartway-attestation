@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d1116;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  height: 85%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  align-self: center;
+}
+.content {
+  align-self: flex-start;
+  font-size: 24px;
+}
+.table {
+  display: flex;
+  width: 100%;
+  gap: 90px;
+  flex-wrap: wrap;
+  height: 100%;
+}
